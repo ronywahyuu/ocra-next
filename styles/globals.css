@@ -1,3 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-primary h-full overflow-x-hidden
+}
+
+#__next{
+  @apply h-full
+}
+
+html {
+  @apply h-full
+}
+/* 
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -104,4 +121,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
